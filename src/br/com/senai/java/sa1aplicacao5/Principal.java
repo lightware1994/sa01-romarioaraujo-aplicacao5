@@ -20,7 +20,7 @@ public class Principal {
 		double valorMes2 = Double.parseDouble(resp1);
 		double valorMes3 = Double.parseDouble(resp2);
 	
-		JOptionPane.showMessageDialog(null, "Resultado dos trimestre: " + "\n" + String.format("%.2f", tbo.calcularMedia(valorMes1, valorMes2, valorMes3) ));
+		JOptionPane.showMessageDialog(null, "Resultado dos trimestre: " + "\n" + String.format("%.2f", tbo.calcularMedia(valorMes1, valorMes2, valorMes3)));
 		
 		
 
