@@ -16,10 +16,12 @@ public class Principal {
 		String resp1=JOptionPane.showInputDialog("Informe o segundo mês:");
 		String resp2=JOptionPane.showInputDialog("Informe o terceiro mês:");
 		
+		
 		double valorMes1 = Double.parseDouble(resp);
 		double valorMes2 = Double.parseDouble(resp1);
 		double valorMes3 = Double.parseDouble(resp2);
 	
+		
 		JOptionPane.showMessageDialog(null, "Resultado dos trimestre: " + "\n" + String.format("%.2f", tbo.calcularMedia(valorMes1, valorMes2, valorMes3)));
 		
 		
